@@ -316,17 +316,17 @@ a {
 }
 
 .specific-thumb {
+  position: relative;
 }
 
 .specific-item {
-  position: relative;
 }
 
 .specific-action {
   position: absolute;
   background-color: rgba(47, 48, 58, 0.8);
   height: 70px;
-  width: 370px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -587,6 +587,33 @@ a {
 .pre-footer-link:hover,
 .pre-footer-link:focus {
   background-color: var(--accent-color);
+}
+
+/*----------------- MODAL WINDOW ------------------*/
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 521px;
+  height: 581px;
+  background-color: #fff;
 }
 
 /*---------------PORTFOLIO PAGE-----------------*/
