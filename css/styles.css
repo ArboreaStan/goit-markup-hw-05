@@ -312,6 +312,36 @@ a {
   margin-bottom: 50px;
 }
 
+.specific-thumb-action {
+}
+
+.specific-thumb {
+}
+
+.specific-item {
+  position: relative;
+}
+
+.specific-action {
+  position: absolute;
+  background-color: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.specific-action-title {
+  color: var(--main-title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 /*------------------COMMAND SECTION---------------------*/
 
 .command-section {
