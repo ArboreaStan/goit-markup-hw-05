@@ -661,11 +661,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .modal-icon {
   width: 18px;
   height: 18px;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal {
