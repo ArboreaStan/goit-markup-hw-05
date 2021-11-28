@@ -650,6 +650,22 @@ a {
   pointer-events: none;
 }
 
+.modal-close {
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-icon {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .modal {
   position: absolute;
   top: 50%;
